@@ -15,11 +15,5 @@ function mincost(arr)
 	  return ans;
 	
 }
-let n=prompt("Enter n : ");
-let arr=[];
-for(let i=0;i<n;i++){
-	arr[i]=Number(prompt(`Enter element ${i+1} : `));
-}
 
-alert(mincost(arr));
 module.exports=mincost;
