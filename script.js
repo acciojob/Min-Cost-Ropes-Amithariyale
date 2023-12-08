@@ -22,4 +22,4 @@ for(let i=0;i<n;i++){
 }
 
 alert(mincost(arr));
-// module.exports=mincost;
+module.exports=mincost;
